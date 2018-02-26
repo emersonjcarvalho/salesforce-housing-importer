@@ -1,0 +1,57 @@
+[
+    {
+        "Location__c": "Burnaby",
+        "Name": "30th floor 2bdrm/2bth with North West Views",
+        "Size__c": "930 sqft",
+        "Price__c": 920000,
+        "PostUrl__c": "https://vancouver.craigslist.ca/bnc/reo/d/30th-floor-2bdrm-2bth-with/6447719482.html"
+    },
+    {
+        "Location__c": "Burnaby",
+        "Name": "SFU condo, one year old, view! (SFU Burnaby Mountain) ",
+        "Size__c": "740 sqft",
+        "Price__c": 629900,
+        "PostUrl__c": "https://vancouver.craigslist.ca/bnc/reo/d/sfu-condo-one-year-old-view/6486779833.html"
+    },
+    {
+        "Location__c": "Burnaby",        
+        "Name": "30th floor 2bdrm/2bth with North West Views (Edmonds- Burnaby)",
+        "Size__c": "930 sqft",
+        "Price__c": 920000,
+        "PostUrl__c": "920000"
+    },
+    {
+        "Location__c": "Coquitlam",
+        "Name": "7 OFF MARKET DEALS TO ADD TO YOUR RENTAL PORTFOLIO!!!!!!!!!!!!!! (PASCO)",
+        "Size__c": "1028 sqft",
+        "Price__c": 62000 ,
+        "PostUrl__c": "https://vancouver.craigslist.ca/van/reo/d/7-off-market-deals-to-add-to/6479414946.html"
+    },
+        {
+        "Location__c": "Coquitlam",
+        "Name": "Excellent Investment Houses in Coquitlam & Port Coquitlam (Coquitlam)",
+        "Size__c": "1099 sqft",
+        "Price__c": 2300000,
+        "PostUrl__c": "https://vancouver.craigslist.ca/bnc/reo/d/30th-floor-2bdrm-2bth-with/6447719482.html"
+    },    {
+        "Location__c": "Coquitlam",
+        "Name": "Bright & spacious 3 bedrooms+ 3 bathrooms + 2 car carport (1195 Falcon Drive, Coquitlam)",
+        "Size__c": "1650 sqft",
+        "Price__c": 718000 ,
+        "PostUrl__c": "https://vancouver.craigslist.ca/pml/reo/d/bright-spacious-3-bedrooms-3/6488768150.html"
+    },
+    {
+        "Location__c": "Coquitlam",
+        "Name": "Beautiful Coquitlam House with Mountain View Home (Riverview Heights Coquitlam",
+        "Size__c": "4000 sqft",
+        "Price__c": 1769900,
+        "PostUrl__c": "https://vancouver.craigslist.ca/pml/reo/d/beautiful-coquitlam-house/6487481170.html"
+    },
+    {
+        "Location__c": "Vancouver",
+        "Name": "Vancouver heights large vancouver special house on 50 x 122 lot (N, Bby)",
+        "Size__c": "3700 sqft",
+        "Price__c": 2200000,
+        "PostUrl__c": "https://vancouver.craigslist.ca/bnc/reo/d/vancouver-heights-large/6488507052.html"
+    }    
+]
