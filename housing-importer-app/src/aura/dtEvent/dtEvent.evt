@@ -1,0 +1,3 @@
+<aura:event type="COMPONENT" description="Event fired when rows are selected on DataTable component">
+    <aura:attribute name="selectedRowsEventAttribute" type="Object"/>
+</aura:event>

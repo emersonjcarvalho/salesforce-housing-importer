@@ -1,0 +1,10 @@
+<aura:component implements="flexipage:availableForAllPageTypes">
+    <aura:attribute name="dtData" type="Object"/>
+    <aura:attribute name="dtColumns" type="List"/>
+    <aura:registerEvent name="dtSelectedRowsEventCmp" type="c:dtEvent"/>
+                                    
+    <lightning:datatable data="{! v.dtData }" 
+        columns="{! v.dtColumns }" 
+        keyField="id"
+        onrowselection="{! c.getSelectedRows }"/>
+</aura:component>

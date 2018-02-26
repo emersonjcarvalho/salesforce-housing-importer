@@ -1,0 +1,13 @@
+<aura:component implements="flexipage:availableForAllPageTypes" >    
+    <aura:attribute name="message" type="String"/>
+	<aura:attribute name="severity" type="String"/>
+    <aura:attribute name="hasErrors" type="Boolean" />
+    
+    <aura:if isTrue="{!v.hasErrors}">       
+        <div>
+            <ui:message title="{!v.severity}" severity="{!v.severity}" closable="true">
+                {!v.message}
+            </ui:message>
+        </div>
+    </aura:if>    
+</aura:component>

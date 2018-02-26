@@ -1,0 +1,17 @@
+<aura:component controller="HousesImportController">    
+    <aura:attribute name="data" type="Object"/>
+    <aura:attribute name="columns" type="List"/>
+    <aura:attribute name="visible" type="Boolean"/>
+    
+    <aura:attribute name="selectedRows" type="House__c[]" />
+        
+    <aura:handler name="dtSelectedRowsEventCmp" event="c:dtEvent" action="{!c.handleSelectedRowsEvent}"/>
+    
+    <aura:if isTrue="{!v.visible}">
+        <c:MessageContainer aura:id="messageContainer" />
+                
+        <c:DTDataTable dtData="{!v.data}" dtColumns="{!v.columns}" />
+        
+        <lightning:button variant="brand" label="Save" iconName="utility:save" iconPosition="left" onclick="{! c.saveSelectedHouses }" />
+    </aura:if>    
+</aura:component>
